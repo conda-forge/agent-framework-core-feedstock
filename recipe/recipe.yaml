@@ -1,7 +1,7 @@
 schema_version: 1
 
 context:
-  version: "1.10.0"
+  version: "1.12.0"
   python_min: "3.10"
 
 package:
@@ -10,7 +10,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/a/agent-framework-core/agent_framework_core-${{ version }}.tar.gz
-  sha256: a373b3bec966e4d186d968e248ac683549cce464a0db345b6ebeebfeafdc7025
+  sha256: 4be4c4a14647b1d4a5e2532598a49e455fd14900fb71034feee67863545cc50e
 
 build:
   noarch: python
